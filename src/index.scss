@@ -1,0 +1,27 @@
+@import "normalize.css/normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*:focus {
+  outline: none;
+}
+
+:root {
+  --main-bg-color: black;
+  --main-text-color: white;
+  --main-font-family: "Montserrat", sans-serif;
+  --main-primary-color: #fed01f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
