@@ -6,4 +6,12 @@
   color: var(--main-bg-color);
   font-weight: 900;
   cursor: pointer;
+  border: 2px solid var(--main-primary-color);
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: var(--main-bg-color);
+    color: var(--main-primary-color);
+    opacity: 0.8;
+  }
 }
